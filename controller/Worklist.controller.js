@@ -1,13 +1,9 @@
 sap.ui.define([
 	"./BaseController",
-	"sap/ui/model/json/JSONModel",
 	"../model/formatter",
-	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator",
 	'sap/ui/core/util/Export',
-	'sap/ui/core/util/ExportTypeCSV',
-	"sap/m/MessageBox"
-], function (BaseController, JSONModel, formatter, Filter, FilterOperator, Export, ExportTypeCSV, File, MessageBox) {
+	'sap/ui/core/util/ExportTypeCSV'
+], function (BaseController, formatter, Export, ExportTypeCSV) {
 	"use strict";
 
 

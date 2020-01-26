@@ -10,10 +10,7 @@
 		toggleHeaderOnTitleClick="false">
 
 		<semantic:titleHeading>
-			<!-- <Title
-				text="{i18n>worklistTitle}"
-				level="H2"/> -->
-							<Button icon="sap-icon://excel-attachment" press=".exportToExcel"/>
+			<Button icon="sap-icon://excel-attachment" press=".exportToExcel"/>
 		</semantic:titleHeading>
 
 		<semantic:content>

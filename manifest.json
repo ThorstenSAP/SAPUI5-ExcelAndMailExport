@@ -100,11 +100,6 @@
 					"pattern": "",
 					"name": "worklist",
 					"target": ["worklist"]
-				},
-				{
-					"pattern": "Objects/{objectId}",
-					"name": "object",
-					"target": ["object"]
 				}
 			],
 
@@ -114,16 +109,6 @@
 					"viewId": "worklist",
 					"viewLevel": 1,
 					"title": "{i18n>worklistViewTitle}"
-				},
-				"object": {
-					"viewName": "Object",
-					"viewId": "object",
-					"viewLevel": 2,
-					"title": "{i18n>objectViewTitle}"
-				},
-				"objectNotFound": {
-					"viewName": "ObjectNotFound",
-					"viewId": "objectNotFound"
 				},
 				"notFound": {
 					"viewName": "NotFound",
